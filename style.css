@@ -1,0 +1,21 @@
+.color{
+    color: #9e9e9e;
+}
+.outer-container{
+    background-image: url(./images/background.jpg);
+}
+
+@media  (min-width: 576px){
+    .card-three,.card-one{
+        margin-top: 100px;
+    }
+    .card-one ,.card-three{
+        margin-bottom: -100px;
+    }
+    .hero-text{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+   
+   
+}
